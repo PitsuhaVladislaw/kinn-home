@@ -1,0 +1,149 @@
+%setBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+}
+
+%setText {
+    color: var(--primary-white);
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.2px;
+    height: auto;
+    width: auto;
+    margin: 0;
+}
+
+footer {
+    @extend %setBlock;
+    padding: 64px 32px 96px;
+    background: var(--dark-yellow-color);
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 95px;
+
+    .desc {
+        @extend %setBlock;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+
+        article {
+            @extend %setBlock;
+            
+            h3 {
+                @extend %setText;
+                cursor: pointer;
+            }
+
+            h3:hover {
+                text-decoration: underline;
+            }
+        }
+
+        div {
+            width: 40px;
+            border: 1px solid var(--primary-white);
+        }
+
+        p {
+            @extend %setText;
+            margin-top: 2px
+        }
+    }
+
+    .explore {
+        @extend %setBlock;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+
+        h2 {
+            @extend %setText;
+            letter-spacing: 1.575px;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+
+        h2:hover {
+            text-decoration: underline;
+        }
+
+        div {
+            width: 40px;
+            border: 1px solid var(--primary-white);
+            margin-bottom: 10px;
+        }
+
+        .dropdown {
+            margin: 0;
+            border: none;
+
+            #dropdown-basic {
+                letter-spacing: 1.575px;
+                text-transform: uppercase;
+                @extend %setText;
+                background: none;
+                border: none;
+                padding: 0;
+            }
+        }
+    }
+
+    .help {
+        @extend %setBlock;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+
+        h1 {
+            @extend %setText;
+            font-size: 14px;
+            margin-bottom: 2px;
+            letter-spacing: 1.575px;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+
+        h1:hover {
+            text-decoration: underline;
+        }
+
+        div {
+            width: 40px;
+            border: 1px solid var(--primary-white);
+            margin-bottom: 9px;
+        }
+
+        h2 {
+            @extend %setText;
+            letter-spacing: 1.575px;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        
+        h2:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .link {
+        @extend %setBlock;
+        gap: 17px;
+
+        svg {
+            width: 22px;
+            height: 22px;
+            color: var(--primary-black);
+            cursor: pointer;
+        }
+
+        svg:hover {
+            outline: 1px solid var(--primary-black);
+        }
+    }
+}

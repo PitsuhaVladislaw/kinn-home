@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  border: 1px solid red;
+}
+
+:root {
+  --primary-font: 'Roboto';
+  --primary-white: #FFFFEF;
+  --primary-black: #000000;
+  --dark-yellow-color: #717353;
+  --additional-yellow: #56593D;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(../assets/fonts/Roboto/Roboto-Black.ttf);
+}

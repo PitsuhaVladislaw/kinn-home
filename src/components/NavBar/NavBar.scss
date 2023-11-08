@@ -1,0 +1,103 @@
+%setBlock {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+}
+
+%setText {
+    color: var(--additional-yellow);
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.2px;
+    letter-spacing: 1.575px;
+    height: auto;
+    width: auto;
+    margin: 0;
+}
+
+nav {
+    @extend %setBlock;
+    flex-direction: column;
+
+    .line {
+        height: 16px;
+        width: auto;
+        background: var(--primary-white);
+    }
+
+    section {
+        justify-content: space-between;
+        padding: 32px 56px 16px;
+        align-items: center;
+        @extend %setBlock;
+
+        article {
+            @extend %setBlock;
+        }
+
+        .nav-map {
+            @extend %setBlock;
+            gap: 39px;
+
+            h4 {
+                @extend %setText;
+                text-transform: uppercase;
+                cursor: pointer;
+            }
+
+            h4:hover {
+                text-decoration: underline;
+            }
+        }
+
+        .nav-logo {
+            a {
+                text-decoration: none;
+                cursor: pointer;
+
+                img {
+                    height: auto;
+                    width: auto;
+                }
+            }
+        }
+
+        .nav-link {
+            @extend %setBlock;
+            gap: 25px;
+
+            svg {
+                width: 32px;
+                height: 32px;
+                cursor: pointer;
+                color: var(--primary-black);
+            }
+
+            .shop-link {
+                position: relative;
+                height: auto;
+                width: auto;
+
+                div {
+                    background: var(--primary-white);
+                    align-items: center;
+                    position: absolute;
+                    @extend %setBlock;
+                    cursor: pointer;
+                    height: 20px;
+                    width: 20px;
+                    top: 17px;
+                    right: 0;
+
+                    h6 {
+                        text-align: center;
+                        @extend %setText;
+                    }
+                }
+            }
+        }
+    }
+}

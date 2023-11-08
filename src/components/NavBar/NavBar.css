@@ -1,0 +1,78 @@
+nav section .nav-link .shop-link div, nav section .nav-link, nav section .nav-map, nav section article, nav section, nav {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: auto;
+}
+
+nav section .nav-link .shop-link div h6, nav section .nav-map h4 {
+  color: var(--additional-yellow);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.2px;
+  letter-spacing: 1.575px;
+  height: auto;
+  width: auto;
+  margin: 0;
+}
+
+nav {
+  flex-direction: column;
+}
+nav .line {
+  height: 16px;
+  width: auto;
+  background: var(--primary-white);
+}
+nav section {
+  justify-content: space-between;
+  padding: 32px 56px 16px;
+  align-items: center;
+}
+nav section .nav-map {
+  gap: 39px;
+}
+nav section .nav-map h4 {
+  text-transform: uppercase;
+  cursor: pointer;
+}
+nav section .nav-map h4:hover {
+  text-decoration: underline;
+}
+nav section .nav-logo a {
+  text-decoration: none;
+  cursor: pointer;
+}
+nav section .nav-logo a img {
+  height: auto;
+  width: auto;
+}
+nav section .nav-link {
+  gap: 25px;
+}
+nav section .nav-link svg {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  color: var(--primary-black);
+}
+nav section .nav-link .shop-link {
+  position: relative;
+  height: auto;
+  width: auto;
+}
+nav section .nav-link .shop-link div {
+  background: var(--primary-white);
+  align-items: center;
+  position: absolute;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  top: 17px;
+  right: 0;
+}
+nav section .nav-link .shop-link div h6 {
+  text-align: center;
+}/*# sourceMappingURL=NavBar.css.map */

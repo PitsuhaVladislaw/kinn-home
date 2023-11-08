@@ -1,0 +1,65 @@
+header section article button:hover, header section article button, header section article h5, header section article h1 {
+  letter-spacing: 1.575px;
+  line-height: 22.365px;
+  font-family: "Roboto";
+  text-align: center;
+  font-style: normal;
+  color: var(--primary-white);
+  font-weight: 400;
+  height: auto;
+  width: auto;
+  margin: 0;
+}
+
+header section article, header section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+}
+
+header {
+  margin: 24.5px 40px 94px;
+  background: var(--primary-white);
+}
+header section {
+  background-image: url(../../assets//img/header-back.png);
+  background-size: cover;
+  position: relative;
+  height: 700px;
+  margin: 16px;
+}
+header section article {
+  flex-direction: column;
+  align-items: flex-end;
+  position: absolute;
+  bottom: 64px;
+  right: 64px;
+  gap: 10px;
+}
+header section article h1 {
+  font-size: 45px;
+  color: var(--additional-yellow);
+}
+header section article h5 {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: var(--additional-yellow);
+  line-height: 21.6px;
+  letter-spacing: 1.8px;
+}
+header section article button {
+  text-transform: uppercase;
+  margin-top: 15px;
+  font-size: 16px;
+  padding: 16px 25px 17px;
+  background: var(--additional-yellow);
+  cursor: pointer;
+}
+header section article button:hover {
+  margin-top: 15px;
+  outline: 1px solid var(--additional-yellow);
+  color: var(--additional-yellow);
+  background: var(--primary-white);
+}/*# sourceMappingURL=Header.css.map */
