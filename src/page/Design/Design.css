@@ -1,0 +1,51 @@
+section article div p, section article div h1 {
+  color: var(--additional-yellow);
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  text-align: center;
+  font-weight: 400;
+  line-height: 38.88px;
+  height: auto;
+  width: auto;
+  margin: 0;
+}
+
+section article div, section article, section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+}
+
+section {
+  background: var(--primary-white);
+}
+section article {
+  align-items: flex-start;
+  padding: 64px 32px;
+  gap: 31.66px;
+}
+section article img {
+  width: auto;
+  height: auto;
+}
+section article div {
+  flex-direction: column;
+  padding: 62.84px 87px 0;
+  gap: 32px;
+}
+section article div .obj-line {
+  padding: 0;
+  width: 40px;
+  border: 1px solid var(--dark-yellow-color);
+}
+section article div h1 {
+  font-size: 29px;
+}
+section article div p {
+  font-size: 20px;
+  line-height: 32.4px;
+  font-family: var(--additional-font);
+}/*# sourceMappingURL=Design.css.map */

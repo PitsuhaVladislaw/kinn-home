@@ -1,0 +1,53 @@
+%setText {
+    color: var(--additional-yellow);
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    height: auto;
+    width: auto;
+    margin: 0;
+}
+
+%setBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+.essentials {
+    @extend %setBlock;
+    margin: 23px auto 24px;
+    padding: 16px;
+    background: var(--primary-white);
+    
+    article {
+        @extend %setBlock;
+        background-image: url(../../assets/img/dishes.png);
+        background-size: cover;
+        padding: 64px;
+        
+        div {
+            flex-direction: column;
+            align-items: center;
+            @extend %setBlock;
+            padding: 0 54px 450px;
+            gap: 11px;
+
+            h5 {
+                @extend %setText;
+                font-size: 17px;
+                line-height: 21.6px;
+            }
+
+            p {
+                @extend %setText;
+                font-size: 50px;
+                line-height: 60.48px;
+                letter-spacing: 1.8px;
+            }
+        }
+    }
+}

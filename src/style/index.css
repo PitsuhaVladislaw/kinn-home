@@ -17,6 +17,7 @@ code {
 }
 
 :root {
+  --additional-font: 'Jost';
   --primary-font: 'Roboto';
   --primary-white: #FFFFEF;
   --primary-black: #000000;
@@ -27,4 +28,9 @@ code {
 @font-face {
   font-family: 'Roboto';
   src: url(../assets/fonts/Roboto/Roboto-Black.ttf);
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url(../assets/fonts/Jost/Jost-VariableFont_wght.ttf);
 }

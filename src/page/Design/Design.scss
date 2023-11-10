@@ -1,0 +1,62 @@
+%setText {
+    color: var(--additional-yellow);
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    line-height: 38.88px;
+    height: auto;
+    width: auto;
+    margin: 0;
+}
+
+%setBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+section {
+    @extend %setBlock;
+    background: var(--primary-white);
+
+    article {
+        align-items: flex-start;
+        padding: 64px 32px;
+        @extend %setBlock;
+        gap: 31.66px;
+
+        img {
+            width: auto;
+            height: auto;
+        }
+
+        div {
+            @extend %setBlock;
+            flex-direction: column;
+            padding: 62.84px 87px 0;
+            gap: 32px;
+
+            .obj-line {
+                padding: 0;
+                width: 40px;
+                border: 1px solid var(--dark-yellow-color);
+            }
+
+            h1 {
+                font-size: 29px;
+                @extend %setText;
+            }
+
+            p {
+                font-size: 20px;
+                @extend %setText;
+                line-height: 32.4px;
+                font-family: var(--additional-font);
+            }
+        }
+    }
+}

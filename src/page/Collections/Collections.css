@@ -1,0 +1,46 @@
+.collections article div h6, .collections article div h4, .collections h1 {
+  color: var(--additional-yellow);
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32.4px;
+}
+
+.collections article div, .collections article, .collections {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+}
+
+.collections {
+  padding: 63px 32px 81px;
+  background: var(--primary-white);
+  flex-direction: column;
+  gap: 80px;
+}
+.collections h1 {
+  font-size: 24px;
+}
+.collections article {
+  gap: 32px;
+}
+.collections article div {
+  flex-direction: column;
+  gap: 7px;
+}
+.collections article div img {
+  width: auto;
+  height: auto;
+}
+.collections article div h4 {
+  line-height: 21.6px;
+}
+.collections article div h6 {
+  color: var(--dark-yellow-color);
+  line-height: 25.92px;
+  letter-spacing: 1.62px;
+}/*# sourceMappingURL=Collections.css.map */

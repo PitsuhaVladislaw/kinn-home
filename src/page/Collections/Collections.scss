@@ -1,0 +1,58 @@
+%setText {
+    color: var(--additional-yellow);
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32.4px;
+}
+
+%setBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+.collections {
+    @extend %setBlock;
+    padding: 63px 32px 81px;
+    background: var(--primary-white);
+    flex-direction: column;
+    gap: 80px;
+
+    h1 {
+        @extend %setText;
+        font-size: 24px;
+    }
+
+    article {
+        @extend %setBlock;
+        gap: 32px;
+
+        div {
+            @extend %setBlock;
+            flex-direction: column;
+            gap: 7px;
+
+            img {
+                width: auto;
+                height: auto;
+            }
+
+            h4 {
+                @extend %setText;
+                line-height: 21.6px;
+            }
+
+            h6 {
+                @extend %setText;
+                color: var(--dark-yellow-color);
+                line-height: 25.92px;
+                letter-spacing: 1.62px;
+            }
+        }
+    }
+}
