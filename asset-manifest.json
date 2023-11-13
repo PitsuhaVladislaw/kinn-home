@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/kinn-home/static/css/main.bab49aab.css",
+    "main.js": "/kinn-home/static/js/main.d56e7e24.js",
+    "static/media/dishes_plants.png": "/kinn-home/static/media/dishes_plants.ee5da1dc5aa689cbfec8.png",
+    "static/media/header-back.png": "/kinn-home/static/media/header-back.89647c402e61f08d5853.png",
+    "static/media/food_dishes.png": "/kinn-home/static/media/food_dishes.f32c618bf5bac37d6acb.png",
+    "static/media/dishes.png": "/kinn-home/static/media/dishes.b6b6329c7bb2f8592abb.png",
+    "static/media/Obj_1.png": "/kinn-home/static/media/Obj_1.ea62a13a0b11b7ca4cb5.png",
+    "static/media/Obj_4.png": "/kinn-home/static/media/Obj_4.e57552cefce19f135bce.png",
+    "static/media/Roboto-Black.ttf": "/kinn-home/static/media/Roboto-Black.cf56c1b149d0a5e8d7c6.ttf",
+    "static/media/Obj_2.png": "/kinn-home/static/media/Obj_2.7922377effe37c9e3736.png",
+    "static/media/Obj_3.png": "/kinn-home/static/media/Obj_3.b07773d5cc565ce6b098.png",
+    "static/media/Jost-VariableFont_wght.ttf": "/kinn-home/static/media/Jost-VariableFont_wght.34835cd554b7b71732e2.ttf",
+    "static/media/desc1.png": "/kinn-home/static/media/desc1.f1e58c0d72939e5c5cd6.png",
+    "static/media/desc3.png": "/kinn-home/static/media/desc3.d546ebfea3049a761971.png",
+    "static/media/desc2.png": "/kinn-home/static/media/desc2.1beacef9185094bc7904.png",
+    "index.html": "/kinn-home/index.html",
+    "main.bab49aab.css.map": "/kinn-home/static/css/main.bab49aab.css.map",
+    "main.d56e7e24.js.map": "/kinn-home/static/js/main.d56e7e24.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bab49aab.css",
+    "static/js/main.d56e7e24.js"
+  ]
+}
