@@ -19,9 +19,10 @@
     width: auto;
 }
 
-section {
-    @extend %setBlock;
+.obj {
     background: var(--primary-white);
+    @extend %setBlock;
+    margin: 24px 32px 0;
 
     article {
         align-items: flex-start;
@@ -34,7 +35,7 @@ section {
             height: auto;
         }
 
-        div {
+        .obj-card {
             @extend %setBlock;
             flex-direction: column;
             padding: 62.84px 87px 0;

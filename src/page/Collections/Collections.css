@@ -20,6 +20,7 @@
   padding: 63px 32px 81px;
   background: var(--primary-white);
   flex-direction: column;
+  margin: 0 32px 0;
   gap: 80px;
 }
 .collections h1 {

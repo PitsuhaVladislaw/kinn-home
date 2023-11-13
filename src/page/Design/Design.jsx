@@ -4,10 +4,10 @@ import Dishes from '../../assets/img/dishes_plants.png'
 
 export default function Design() {
     return(
-        <section>
+        <section className='obj'>
             <article>
                 <img src={Dishes} alt="dishes" />
-                <div>
+                <div className='obj-card'>
                     <h1>Our Design Story</h1>
                     <div className='obj-line'></div>
                     <p>

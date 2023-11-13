@@ -12,10 +12,6 @@ code {
     monospace;
 }
 
-* {
-  border: 1px solid red;
-}
-
 :root {
   --additional-font: 'Jost';
   --primary-font: 'Roboto';

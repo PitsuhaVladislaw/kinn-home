@@ -6,7 +6,7 @@ footer .link, footer .help, footer .explore, footer .desc article, footer .desc,
   width: auto;
 }
 
-footer .help h2, footer .help h1, footer .explore .dropdown #dropdown-basic, footer .explore h2, footer .desc p, footer .desc article h3 {
+footer .help h2, footer .help h1, footer .explore .dropdown #dropdown-basic, footer .explore h2, footer .explore h1, footer .desc p, footer .desc article h3 {
   color: var(--primary-white);
   font-family: var(--primary-font);
   font-size: 16px;
@@ -23,6 +23,7 @@ footer {
   background: var(--dark-yellow-color);
   justify-content: space-between;
   align-items: flex-start;
+  margin: 63.8px 8px 8px;
   gap: 95px;
 }
 footer .desc {
@@ -47,6 +48,12 @@ footer .explore {
   flex-direction: column;
   align-items: flex-start;
   gap: 15px;
+}
+footer .explore h1 {
+  font-size: 14px;
+  margin-bottom: 2px;
+  letter-spacing: 1.575px;
+  text-transform: uppercase;
 }
 footer .explore h2 {
   letter-spacing: 1.575px;
@@ -82,10 +89,6 @@ footer .help h1 {
   margin-bottom: 2px;
   letter-spacing: 1.575px;
   text-transform: uppercase;
-  cursor: pointer;
-}
-footer .help h1:hover {
-  text-decoration: underline;
 }
 footer .help div {
   width: 40px;
@@ -110,5 +113,7 @@ footer .link svg {
   cursor: pointer;
 }
 footer .link svg:hover {
-  outline: 1px solid var(--primary-black);
+  outline: 2px solid var(--primary-black);
+  padding: 3px;
+  border-radius: 100px;
 }/*# sourceMappingURL=Footer.css.map */

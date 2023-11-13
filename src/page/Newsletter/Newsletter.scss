@@ -1,0 +1,85 @@
+%setText {
+    color: var(--additional-yellow);
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38.88px;
+    height: auto;
+    width: auto;
+    margin: 0;
+}
+
+%setBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+
+.newsletter {
+    background: var(--primary-white);
+    padding: 32.02px 32px 31.8px;
+    margin: 40px 32px 0;
+    @extend %setBlock;
+
+    article {
+        padding: 30.98px 0 31px;
+        flex-direction: column;
+        @extend %setBlock;
+        gap: 16px;
+
+        h1 {
+            @extend %setText;
+            font-size: 28px;
+        }
+        
+        p {
+            @extend %setText;
+            font-size: 17px;
+            line-height: 38.88px;
+        }
+
+        form {
+            padding: 16.8px 0 0;
+            margin-top: 15.2px;
+            @extend %setBlock;
+            gap: 16.41px;
+
+            input {
+                border-color: var(--additional-yellow);
+                background: var(--primary-white);
+                border-width: 0 0 1px;
+                line-height: 38.88px;
+                width: 339.594px;
+                @extend %setText;
+                cursor: pointer;
+                font-size: 17px;
+                line-height: 0;
+                outline: 0;
+            }
+
+            button {
+                background: var(--additional-yellow);
+                color: var(--primary-white);
+                text-transform: uppercase;
+                letter-spacing: 1.6px;
+                line-height: 22.72px;
+                @extend %setBlock;
+                @extend %setText;
+                cursor: pointer;
+                padding: 0 25px;
+                font-size: 15px;
+                border: none;
+            }
+
+            button:hover {
+                background: var(--primary-white);
+                color: var(--additional-yellow);
+                outline: 2px solid var(--additional-yellow);
+            }
+        }
+    }
+}

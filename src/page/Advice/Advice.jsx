@@ -4,9 +4,9 @@ import foodDishes from '../../assets/img/food_dishes.png'
 
 export default function Advice() {
     return(
-        <section>
+        <section className='obj'>
             <article>
-                <div>
+                <div className='obj-card'>
                     <h1>Your Table Your Time</h1>
                     <div className='obj-line'></div>
                     <p>

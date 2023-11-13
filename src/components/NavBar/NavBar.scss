@@ -21,6 +21,7 @@
 nav {
     @extend %setBlock;
     flex-direction: column;
+    margin: 0 8px 0;
 
     .line {
         height: 16px;
@@ -30,7 +31,7 @@ nav {
 
     section {
         justify-content: space-between;
-        padding: 32px 56px 16px;
+        padding: 32px 48px 16px;
         align-items: center;
         @extend %setBlock;
 

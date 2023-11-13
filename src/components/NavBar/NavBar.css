@@ -20,6 +20,7 @@ nav section .nav-link .shop-link div h6, nav section .nav-map h4 {
 
 nav {
   flex-direction: column;
+  margin: 0 8px 0;
 }
 nav .line {
   height: 16px;
@@ -28,7 +29,7 @@ nav .line {
 }
 nav section {
   justify-content: space-between;
-  padding: 32px 56px 16px;
+  padding: 32px 48px 16px;
   align-items: center;
 }
 nav section .nav-map {

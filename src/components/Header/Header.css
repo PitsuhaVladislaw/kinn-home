@@ -52,6 +52,7 @@ header section article h5 {
 header section article button {
   text-transform: uppercase;
   margin-top: 15px;
+  border: none;
   font-size: 16px;
   padding: 16px 25px 17px;
   background: var(--additional-yellow);

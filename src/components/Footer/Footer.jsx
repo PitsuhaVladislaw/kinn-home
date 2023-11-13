@@ -20,7 +20,7 @@ export default function Footer() {
                 </p>
             </section>
             <section className='explore'>
-                <h2>Explore</h2>
+                <h1>Explore</h1>
                 <div></div>
                 <DropElem
                     name="Shop"

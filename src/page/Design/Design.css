@@ -1,4 +1,4 @@
-section article div p, section article div h1 {
+.obj article .obj-card p, .obj article .obj-card h1 {
   color: var(--additional-yellow);
   text-align: center;
   font-family: "Roboto";
@@ -11,7 +11,7 @@ section article div p, section article div h1 {
   margin: 0;
 }
 
-section article div, section article, section {
+.obj article .obj-card, .obj article, .obj {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,32 +19,33 @@ section article div, section article, section {
   width: auto;
 }
 
-section {
+.obj {
   background: var(--primary-white);
+  margin: 24px 32px 0;
 }
-section article {
+.obj article {
   align-items: flex-start;
   padding: 64px 32px;
   gap: 31.66px;
 }
-section article img {
+.obj article img {
   width: auto;
   height: auto;
 }
-section article div {
+.obj article .obj-card {
   flex-direction: column;
   padding: 62.84px 87px 0;
   gap: 32px;
 }
-section article div .obj-line {
+.obj article .obj-card .obj-line {
   padding: 0;
   width: 40px;
   border: 1px solid var(--dark-yellow-color);
 }
-section article div h1 {
+.obj article .obj-card h1 {
   font-size: 29px;
 }
-section article div p {
+.obj article .obj-card p {
   font-size: 20px;
   line-height: 32.4px;
   font-family: var(--additional-font);
